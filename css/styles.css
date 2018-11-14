@@ -34,7 +34,7 @@ a img{
 }
 h1, h2, h3, h4, h5, h6 {
   font-family: Arial, Helvetica, sans-serif;
-  margin: 0 0 20%;
+  /* margin: 0 0 20%; */
 }
 article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
 	display: block;
@@ -231,7 +231,7 @@ nav h1 a {
   font-size: 2em;
   font-weight: 200;
   letter-spacing: 0;
-  margin: 1.5em 0 3em;
+  margin: 1em 0 1.5em;
   text-transform: uppercase;
   line-height: 1.1;
 }
@@ -257,7 +257,7 @@ nav h1 a {
 #restaurant-container, #reviews-container {
   border-bottom: 1px solid #d9d9d9;
   border-top: 1px solid #fff;
-  padding: 14em 4em 3em;
+  padding: 11em 4em 3em;
   width: 50%;
 }
 #reviews-container {
@@ -291,6 +291,3 @@ nav h1 a {
 #restaurant-hours td {
   color: #666;
 }
-
-/* ====================== Media Queries ====================== */
-
