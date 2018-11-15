@@ -161,7 +161,9 @@ class DBHelper {
     const marker = new L.marker([restaurant.latlng.lat, restaurant.latlng.lng],
       {title: restaurant.name,
       alt: restaurant.name,
-      url: DBHelper.urlForRestaurant(restaurant)
+      url: DBHelper.urlForRestaurant(restaurant),
+      //The marker should not be tabbed to with a keyboard and clicked by pressing enter.
+      keyboard: false,
       })
       marker.addTo(newMap);
     return marker;
